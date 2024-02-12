@@ -1,0 +1,75 @@
+:root{
+    --color-gray-text: #6f6f6f0d;
+    --color-gray-line: #fffefe00;
+    --color-blak: ##0000004a;
+}
+*{
+    font-family: 'Italianno', cursive;
+    color: var(--color-gray-text);
+
+}
+.container{
+    margin: auto;
+    padding: 0 30px;
+}
+.center-po{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.center-fl{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: url(/img/bg_vaiolin.jpg);
+    background-position: cover;
+}
+.main{
+    width: 80%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+}
+.main-input{
+    background-color: var(--color-blak);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: var(--color-gray-text);
+    width: 100%;
+    height: 60px;
+    padding: 0 25px;
+    margin: 0 20px;
+    border-bottom: solid 1px #ffffff0f;
+    border-right: solid 1px #ffffff17;
+    border-top: solid 1px #0000004f;
+    border-left: solid 1px #0000001a;
+}
+.main-input:focus{
+    box-shadow: none;
+    border-bottom: solid 1px #ffffff0f;
+    border-right: solid 1px #ffffff17;
+    border-top: solid 1px #0000004f;
+    border-left: solid 1px #0000001a;
+}
+.main-btn{
+    background-color: var(--color-blak);
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: var(--color-gray-text);
+    width: 17%;
+    height: 45px;
+    padding: 0 25px;
+    margin: 0 20px;
+    border-bottom: solid 1px #ffffff0f;
+    border-right: solid 1px #ffffff17;
+    border-top: solid 1px #0000004f;
+    border-left: solid 1px #0000001a;
+}

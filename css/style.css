@@ -70,7 +70,6 @@ body {
 }
 
 .main-btn {
-    width: 17%;
     height: 45px;
     background-color: var(--color-blak);
     border-top-right-radius: 20px;
@@ -90,9 +89,9 @@ body {
 }
 
 .main-line {
-    box-shadow: 0px 5px 9px -2px blue;
+    /* box-shadow: 0px 5px 9px -2px blue; */
     width: 60%;
-    border: 3px #ffffff00 solid;
+    border: 1px #ffffff27 solid;
     margin: auto;
 
 }
@@ -105,14 +104,61 @@ body {
     border-top-left-radius: 20px;
     color: white;
     padding: 10px;
-    margin: 0 10px;
+    transition: 2s;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.main-icon:hover {
     box-shadow: -1px 2px 18px -6px blue;
+    transition: 1s;
 }
 
 .main-link {
     font-size: 22px;
+    transition: 1s;
+    color: #6b6b6b;
+
+}
+
+.main-link:hover {
+    color: rgb(0, 0, 255);
+    transition: 1s;
 }
 
 .main-color-text {
     color: #6b6b6b;
+}
+
+@media (max-width: 360px) {
+    .font-sm {
+        font-size: 13px;
+    }
+
+    .sign-in-sm {
+        font-size: 20px;
+        /* padding: 1.1rem; */
+    }
+
+    .logo-sm {
+        font-size: ;
+    }
+}
+
+@media (max-width: 993px) {
+    .sign-in-md {
+        padding: 13px 26px 2px 26px;
+    }
+
+    .logo-md {
+        padding: 13px 26px 2px 26px;
+    }
+
+    .main {
+        width: 90%;
+        height: 90%;
+    }
 }

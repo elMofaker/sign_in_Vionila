@@ -1,7 +1,9 @@
 :root {
     --color-gray-text: #6f6f6f0d;
     --color-gray-line: #fffefe00;
-    --color-blak: #0000004a;
+    /* --color-blak: #0000004a; */
+    --color-blak: #000000a1;
+    --color-icon: #3d3d3d1f;
 }
 
 * {
@@ -11,7 +13,7 @@
 
 .container {
     margin: auto;
-    padding: 0 30px;
+    padding: 0 20px;
 }
 
 .center-po {
@@ -84,9 +86,10 @@ body {
 }
 
 .mina-bg-color {
-    background: #00000073;
+    background: var(--color-blak);
     border-bottom-right-radius: 50px;
     border-top-left-radius: 50px;
+    /* border: 1px solid black; */
 }
 
 .main-line {
@@ -100,7 +103,7 @@ body {
 .main-icon {
     width: 80px;
     height: 45px;
-    background-color: var(--color-blak);
+    background-color: var(--color-icon);
     border-bottom-right-radius: 20px;
     border-top-left-radius: 20px;
     color: white;
@@ -110,6 +113,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 1px solid black;
 
 }
 
@@ -138,14 +142,14 @@ body {
     .font-sm {
         font-size: 13px;
     }
+    .main-icon{
+        width: 61px;
+        height: 40px;
+    }
 
     .sign-in-sm {
         font-size: 20px;
         /* padding: 1.1rem; */
-    }
-
-    .logo-sm {
-        font-size: ;
     }
 }
 
